@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Marco Alves</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .sidebar {
+            background-color: #333;
+            color: #fff;
+            min-height: 100vh; /* Altura total da view */
+        }
+
+        .profile-info {
+            padding: 30px;
+            background: linear-gradient(135deg, #26a0da, #314755);
+        }
+
+        .profile-info img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .sidebar .nav {
+            display: block;
+            padding: 20px;
+        }
+
+        .sidebar .nav a {
+            color: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            display: block;
+            text-decoration: none;
+        }
+
+        .sidebar .nav a:hover {
+            background: #444;
+        }
+
+        .main-content {
+            background-color: #f4f4f9;
+            min-height: 100vh; /* Altura total da view */
+            padding: 30px;
+        }
+
+        .main-content h2 {
+            color: #333;
+            border-bottom: 2px solid #26a0da;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+
+        .footer button {
+            background: #26a0da;
+            color: #fff;
+            border: 0;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 sidebar">
+                <div class="profile-info">
+                    <img src="profile-picture.jpg" alt="João Silva">
+                    <h2>Marco Alves</h2>
+                    <p>Desenvolvedor Web</p>
+                </div>
+                <nav class="nav flex-column">
+                    <a href="#about-me">Sobre Mim</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#portfolio">Portfólio</a>
+                    <a href="#contact">Contato</a>
+                </nav>
+            </div>
+            <div class="col-md-8 main-content">
+                <section id="about-me">
+                    <h2>Sobre Mim</h2>
+                    <p>Sou um desenvolvedor web com experiência em criar websites interativos e responsivos...</p>
+                </section>
+                <section id="services">
+                    <h2>Meus Serviços</h2>
+                    <p>Descrição dos serviços que eu ofereço...</p>
+                </section>
+                <section id="portfolio">
+                    <h2>Portfólio</h2>
+                    <p>Alguns dos meus trabalhos...</p>
+                </section>
+                <section id="contact">
+                    <h2>Contato</h2>
+                    <p>Como me encontrar...</p>
+                </section>
+                <div class="footer">
+                    <button type="button">Download Currículo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, e jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
